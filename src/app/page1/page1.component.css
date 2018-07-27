@@ -1,0 +1,200 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    background-image: url('http://blog.influencelogic.com/wp-content/uploads/2016/12/pexels-photo-194511-1920x1280.jpeg');
+    background-repeat: repeat;
+}
+.site-wrapper{
+    width: 100%;
+    height: 100%;
+    color: red;
+}
+
+.site-wrapper .container-fluid a{
+    color: mediumaquamarine;
+
+}
+
+.navbar-nav li a{
+    font-size: 0.8em;
+    margin: 0px 10px;
+    color: dodgerblue !important;
+    
+}
+
+.site-title{
+    text-align: center;
+    margin-top: 7%;
+    height: 74vh;
+}
+
+.site-title h2{
+    font-size: 3em;
+    margin: 5% 0%;
+}
+
+.title-text{
+    width: 50vw;
+    height: 5vh;
+    font-size: 0.8em;
+    color: #F6F8FF;
+}
+
+.btn-sub1{
+    font-family: 'Patua One';
+    border: 1px solid #EF233C;
+    background-color: #EDF2F4;
+    color: #EF233C;
+    border-radius: 3px;
+    padding: 0.7em 1em;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.btn-sub2{
+    font-family: 'Patua One';
+    padding: 0.7em 1em;
+    background-color: #EF233C;
+    border: 1px solid #EDF2F4;
+    color: #EDF2F4;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.site-title i{
+    padding-left: 0.3em;
+}
+
+
+/* Content -1 */
+
+.content-1 .col-md-12 h6{
+    font-size: 20px;
+    color: #EF233C;
+}
+
+.content-1 .col-md-12 h2{
+    color: aqua;
+}
+
+.content-1 .col-md-12 .title-border{
+    content: "";
+    width: 30%;
+    height: 2px;
+    display: block;
+    background-color: #EF233C;
+    border-radius: 50%;
+    margin: 1%;
+    margin-left: 35%;
+}
+.content-1 .col-md-12 p{
+    font-size: 11px;
+    color: darkkhaki;
+}
+
+.content-1 .curcle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 9vw;
+    background-color: #F7FFF7;
+    border: 1px solid darkkhaki;
+    color: #EF233C;
+    transition: all 200ms ease;
+    text-align: center
+}
+
+.content-1 .description a{
+    text-decoration: none;
+}
+.content-1 .description p{
+    font-size: 11px;
+}
+
+
+
+.content-5 .row{
+    margin-top: 8%;
+}
+.content-5 .member-1 .avatar{
+    margin: 20px 0px;
+}
+.content-5 .curcle{
+    border-radius: 100px;
+    width: 35%;
+    padding-top: 35px;
+    position: relative;
+    z-index: 4;
+}
+
+.content-5 .avatar span::after{
+    content: "";
+    width: 90%;
+    height: 100px;
+    background-color:gray;
+    position: absolute;
+    display: block;
+    top: 3px;
+    z-index: 0;
+}
+
+.content-5 .member-1 .desc {
+    padding: 8%;
+    font-size: 14px;
+    color: red
+    
+}
+
+.content-5 .member-1 .desc .info{
+    padding: 8%;
+    font-size: 14px;
+    
+}
+
+.content-5 .member-1 .desc .social-icon{
+    background-color: gray;
+    padding: 4%;
+    color: black
+}
+
+.content-5 .social-icon span{
+    border: 1px solid blue;
+    padding: 4px 8px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+
+footer{
+    background-color: black;
+    padding-top: 4%;
+    margin: 0px;
+    position: relative;
+}
+footer span{
+    padding: 0.3em 0.7em;
+    color: white;
+    background-color: #242423;
+    border-radius: 50%;
+    margin: 13px 3px;
+    transition: all 500ms ease;
+}
+
+footer p{
+    margin: 0px;
+    color: #3F494C;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+
+footer .top a{
+    position: absolute;
+    right: 2%;
+    top: 69%;
+    color: #3F494C;
+    transition: all 500ms ease;
+}
